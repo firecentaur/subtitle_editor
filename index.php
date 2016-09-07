@@ -13,7 +13,7 @@ echo "Srt";
 
 try {
     $srt = new mepSubripFile('2001.srt',NULL,FALSE,FALSE);
-    $srt->convertTo('cliptext')->save('my_subs.vtt');
+    $srt->convertTo('cliptext');
 } catch(Exception $e) {
     echo "Error: ".$e->getMessage()."\n";
 }

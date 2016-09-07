@@ -6,6 +6,7 @@
  */
 require __DIR__ . '/vendor/autoload.php';
 use Captioning\Format\SubripFile;
+use Captioning\Format\mepSubripFile;
 use Captioning\Format\WebvttFile;
 
 echo "Srt";

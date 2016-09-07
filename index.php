@@ -11,7 +11,7 @@ use Captioning\Format\WebvttFile;
 echo "Srt";
 
 try {
-    $srt = new SubripFile('2001.srt');
+    $srt = new mepSubripFile('2001.srt',NULL,FALSE,FALSE);
     $srt->convertTo('cliptext')->save('my_subs.vtt');
 } catch(Exception $e) {
     echo "Error: ".$e->getMessage()."\n";

@@ -1,10 +1,5 @@
 # Mep Home Page
-
-This project uses the Captioning library(https://github.com/captioning/captioning
-There is a bug however.  If the start or end times of the Subrip files have just 2 digits instead of 3
-an error reads "Invalid Subrip File"
-
-Example:
+Please modify 
 
 ~~~
 
